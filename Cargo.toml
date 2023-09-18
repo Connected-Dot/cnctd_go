@@ -6,7 +6,6 @@ authors = ["Connected Dot Inc.", "Kyle Ebner <kyle@cnctd.world>"]
 description = "Go methods"
 license = "MIT"
 repository = "https://github.com/Connected-Dot/cnctd_go"
-repository = "https://github.com/Connected-Dot/cnctd_go"
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
