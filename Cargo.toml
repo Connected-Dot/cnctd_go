@@ -1,0 +1,16 @@
+[package]
+name = "cnctd_go"
+version = "0.1.0"
+edition = "2021"
+authors = ["Connected Dot Inc.", "Kyle Ebner <kyle@cnctd.world>"]
+description = "Go methods"
+license = "MIT"
+repository = "https://github.com/Connected-Dot/cnctd_go"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+cnctd_shell = { version = "0.1.1", path = "../cnctd_shell" }
+tokio = { version = "1.32.0", features = ["full"] }
